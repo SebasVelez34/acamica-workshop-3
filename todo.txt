@@ -1,0 +1,26 @@
+Usuario : 
+	- Se puede registrar
+	- Puede crear articulos
+	- Comprar articulos
+	- Ver estado de sus productos
+
+Apartado de registro: 
+	- Enviar form y recibirlo en el backend
+	- Guardar la info del usuario en una variable de sesion.
+
+Apartado de Login
+	- Enviar form y recibirlo en el backend
+	- Consultar la info del usuario en el variable de sesion de usuarios registrados y 
+	  retornar si el usuario existe.
+
+Usuario logeado
+	- Crear articulos
+		- En el apartado de mis productos, debe haber un formulario permita crear Nombre del producto,precio,cantidad y subir una imagen.
+		- Recibirlo en el Backend y guardar el producto asociado al usuario.
+	- Ver estado de sus productos
+		- En el apartado de mis productos, listar los productos que están asociados al usuario. Debe de consultar un endpoint que retorne todos los productos disponibles.
+Homepage
+	- Listar productos
+		- Consultar endpoint donde retorne todos los productos disponibles y mostrarlos.
+	- Cada producto tiene un boton "Comprar" donde se debe actualizar el estado del producto, la cantidad.
+	- Cuando el usuario de al boton comprar se debe de asociar ése producto al usuario en un variable de sesion.
