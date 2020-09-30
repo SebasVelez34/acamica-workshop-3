@@ -3,7 +3,7 @@ Usuario :
 	- Puede crear articulos
 	- Comprar articulos
 	- Ver estado de sus productos
-
+-----------------------------------------------------------------------------
 Apartado de registro: 
 	- Enviar form y recibirlo en el backend
 	- Guardar la info del usuario en una variable de sesion.
